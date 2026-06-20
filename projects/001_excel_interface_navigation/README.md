@@ -1,43 +1,60 @@
-# Excel Interface & Navigation — Retail Operations Lab
+# Day 01 — Excel Interface & Navigation for Retail Operations
 
-💼 Vinay Kumar Kalluri · 🐙 DataWithVinay
+**Brand:** 💼 Vinay Kumar Kalluri · 🐙 DataWithVinay
 
 ## Project Overview
 
-This project teaches beginner-level Excel workbook structure, navigation, and clean spreadsheet organization using a synthetic retail operations case study.
+This beginner-friendly Excel project teaches how to structure and navigate a retail operations workbook. It uses synthetic retail sales, product, store, and inventory audit data.
 
 ## Business Problem
 
-A retail company receives daily sales and inventory files from multiple stores. The data is messy, tabs are unclear, and analysts waste time finding the correct sheet and columns.
+Retail analysts often receive messy spreadsheets from multiple stores. This project shows how to organize a workbook so it becomes easier to navigate, filter, validate, and prepare for PivotTables, Power Query, and dashboards.
 
-## What This Project Covers
+## What You Will Learn
 
-- Excel workbook vs worksheet
+- Workbook vs worksheet
+- Cell and range navigation
 - Clean sheet naming
-- Freeze panes
-- Filters
-- One dataset per sheet
-- Retail sales sample data
-- Inventory audit sample data
-- GitHub-ready documentation
+- Freeze panes and filters
+- Separating lookup, transaction, and audit data
+- Preparing Excel files for analytics
 
-## Datasets
+## Repository Structure
 
-Synthetic datasets:
+```text
+001_excel_interface_navigation/
+├── README.md
+├── business_problem.md
+├── learning_notes.md
+├── datasets/
+│   ├── stores.csv
+│   ├── products.csv
+│   ├── sales_orders.csv
+│   └── inventory_audit.csv
+├── notebooks/
+│   └── day01_dataset_generator.ipynb
+├── scripts/
+│   └── dataset_generation_colab_code.py
+├── linkedin/
+│   ├── linkedin_post.md
+│   ├── image_prompts.md
+│   └── gif_storyboard.md
+└── notes/
+    └── pdf_revision_notes.md
+```
 
-- stores.csv
-- products.csv
-- sales_orders.csv
-- inventory_audit.csv
+## Dataset
 
-## Tools Used
+All datasets are synthetic and generated for learning purposes only.
 
-- Microsoft Excel
-- Google Colab
-- Python
-- Pandas
-- GitHub
+## How to Use
 
-## Portfolio Value
+1. Run the Colab notebook.
+2. Generate the CSV files.
+3. Open them in Excel.
+4. Combine them into a workbook.
+5. Apply clean sheet naming, filters, freeze panes, and basic formatting.
 
-This is a beginner-friendly project showing spreadsheet hygiene, business dataset organization, and analytics-ready workbook design.
+## Portfolio Summary
+
+This project demonstrates spreadsheet hygiene, dataset organization, and business-ready workbook design for retail analytics.
