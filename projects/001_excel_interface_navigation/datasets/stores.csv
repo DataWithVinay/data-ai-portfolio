@@ -1,0 +1,11 @@
+store_id,store_name,city,region,manager,store_format
+STR001,Metro Retail Store 1,Mumbai,West,Manager_1,High Street
+STR002,Metro Retail Store 2,Pune,West,Manager_2,High Street
+STR003,Metro Retail Store 3,Chennai,West,Manager_3,Superstore
+STR004,Metro Retail Store 4,Pune,South,Manager_4,Superstore
+STR005,Metro Retail Store 5,Pune,West,Manager_5,Mall
+STR006,Metro Retail Store 6,Bengaluru,South,Manager_6,Mall
+STR007,Metro Retail Store 7,Chennai,West,Manager_7,Superstore
+STR008,Metro Retail Store 8,Chennai,West,Manager_8,High Street
+STR009,Metro Retail Store 9,Chennai,West,Manager_9,High Street
+STR010,Metro Retail Store 10,Pune,West,Manager_10,Mall
